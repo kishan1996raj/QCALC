@@ -11,6 +11,13 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        StandardCalculator calc = new StandardCalculator();
+        calc.add(5, 5);
+        System.out.println( calc.getResult());
+        calc.subtract(6, 2);
+        System.out.println( calc.getResult());
+        calc.clearResult();
+        calc.printResult();
+
     }
 }
-
