@@ -54,8 +54,8 @@ public class ScientificCalculatorTest {
     @Test
     @DisplayName("Test modulo of integer with return type double")
     public void testModuloDouble() {
-        Assertions.assertEquals(1, scientificCalculator.modulo(5.0, 2.0));
-        Assertions.assertEquals(0, scientificCalculator.modulo(10.0, 2.0));
+        Assertions.assertEquals(1.0, scientificCalculator.modulo_double(5.0, 2.0));
+        Assertions.assertEquals(0.0, scientificCalculator.modulo_double(10.0, 2.0));
     }
 }
 
